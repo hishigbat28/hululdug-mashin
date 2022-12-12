@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/src/img/nature.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.garchig {
+  width: 550px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.garchig h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.zurag {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  transition: all 1s;
+}
+.zurag img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+  box-shadow: 10px 10px 80px 40px;
+}
+.zurag:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.hudluh {
+  transition: all 0.5s;
+}
+.hudluh:hover {
+  transform: translateY(6px);
+  transition: all 0.5s;
+}
+
+@media (max-width: 560px) {
+  .zurag {
+    width: 400px;
+    height: 300px;
+  }
+  .garchig {
+    width: 70%;
+    height: 150px;
+  }
+}
+@media (max-width: 436px) {
+  .zurag {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (max-width: 334px) {
+  .zurag {
+    width: 250px;
+    height: 150px;
+  }
+}
